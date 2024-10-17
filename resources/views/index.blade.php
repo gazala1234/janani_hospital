@@ -9,9 +9,3 @@
 
 {{-- includes footer file --}}
 @include('layouts.footer');
-
-
-                
-            
-        
-    
