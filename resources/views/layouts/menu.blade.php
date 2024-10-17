@@ -13,19 +13,44 @@
 
         <li class="sidebar-item  ">
             <a href="form-layout.html" class='sidebar-link'>
-                <i class="bi bi-file-earmark-medical-fill"></i>
-                <span>Form Layout</span>
+                <i class="bi bi-chat-left-text"></i>
+                <span>Ask a Doctor</span>
             </a>
         </li>
 
         <li class="sidebar-item  ">
             <a href="table.html" class='sidebar-link'>
-                <i class="bi bi-grid-1x2-fill"></i>
-                <span>Table</span>
+                <i class="bi bi-journal-medical"></i>
+                <span>Book Appointment</span>
             </a>
         </li>
 
-        <li class="sidebar-item  has-sub">
+        <li class="sidebar-item  ">
+            <a href="table.html" class='sidebar-link'>
+                <i class="bi bi-camera-video"></i>
+                <span>Live Sessions</span>
+            </a>
+        </li>
+        <li class="sidebar-item  ">
+            <a href="table.html" class='sidebar-link'>
+                <i class="bi bi-calendar2-event"></i>
+                <span>Events</span>
+            </a>
+        </li>
+        <li class="sidebar-item  ">
+            <a href="table.html" class='sidebar-link'>
+                <i class="bi bi-info-circle"></i>
+                <span>Services</span>
+            </a>
+        </li>
+        <li class="sidebar-item  ">
+            <a href="{{ url('api/settings') }}" class='sidebar-link'>
+                <i class="bi bi-gear"></i>
+                <span>Settings</span>
+            </a>
+        </li>
+
+        {{-- <li class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-person-badge-fill"></i>
                 <span>Authentication</span>
@@ -51,7 +76,7 @@
             </ul>
 
 
-        </li>
+        </li> --}}
 
     </ul>
 </div>

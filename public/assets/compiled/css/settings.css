@@ -1,0 +1,45 @@
+/* Custom styles for Settings page */
+
+.container {
+    margin-top: 20px; /* Space above the container */
+}
+
+.nav-tabs .nav-link {
+    cursor: pointer;
+    margin: 5px;
+    font-weight: 700; /* Bold text for tab links */
+    color: #727374; /* Default text color */
+}
+
+.nav-tabs .nav-link.active {
+    /* background-color: #6a87a5; */
+    color: #222; 
+    border: none; 
+}
+
+.tab-content {
+    padding: 20px; /* Padding inside tab content */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light border */
+    margin-top: 15px; /* Space above tab content */
+}
+
+form .form-control {
+    padding: 10px; /* Padding inside form controls */
+    font-size: 16px; /* Font size for inputs */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+/* .btn-primary {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-weight: 600; 
+    box-shadow: 5px 5px 5px #727374;
+    border-radius: 20px;
+} */
