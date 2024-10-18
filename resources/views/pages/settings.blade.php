@@ -1,10 +1,15 @@
 @extends('layouts.app')
 
+@section('include-css-links')
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="stylesheet" href="{{ asset('../assets/compiled/css/settings.css') }}">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+@endsection
+
+
 @section('page-heading')
     Settings
 @endsection
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
 
 @section('page-content')
 <div class="container">
@@ -128,14 +133,21 @@
         </div>
     </div>
 </div>
+
+@section('include-js-links')
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
-  <script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>   
+@endsection
+
+@section('js-script')
+<script>
     $( function() {
-      $( "#datepicker" ).datepicker({
-          dateFormat: "dd-mm-yy" 
-      });
-    } );
-    </script>
+        $( "#datepicker" ).datepicker({
+            dateFormat: "dd-mm-yy" 
+        });
+      } );
+</script>
+@endsection
+  
 
 @endsection

@@ -14,6 +14,10 @@
 <script src="{{ asset('assets/extensions/apexcharts/apexcharts.min.js') }}"></script>
 <script src="{{ asset('assets/static/js/pages/dashboard.js') }}"></script>
 
+
+@yield('include-js-links')
+
+@yield('js-script')
 </body>
 
 </html>
