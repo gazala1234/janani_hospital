@@ -16,6 +16,76 @@ Dashboard
                 <h6>Pregnancy and Baby Care Community to connect with others and share their experiences</h6>
             </div>
         </div>
+        <div class="communities mt-5">
+            <h1 class="text-center">Our Communities</h1>
+            <div class="row mt-5">
+                <div class="community-card">
+                    <div class="card-content">
+                        {{-- <img src="../img/community/janani-moms.jpeg" alt="Janani Moms" class="community-image">
+                        --}}
+                        <h3>Janani Moms</h3>
+                        <p>Join a supportive community of mothers sharing experiences and advice.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">Join Community</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <div class="card-content">
+                        {{-- <img src="../img/community/pregnancy-class.jpeg" alt="Pregnancy Classes"
+                            class="community-image"> --}}
+                        <h3>Pregnancy Classes</h3>
+                        <p>Enroll in classes to learn about pregnancy, childbirth, and parenting.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <div class="card-content">
+                        {{-- <img src="../img/community/pregnancy-package.jpeg" alt="Pregnancy Packages"
+                            class="community-image"> --}}
+                        <h3>Pregnancy Packages</h3>
+                        <p>Explore our tailored packages for a healthy pregnancy journey.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">Explore Packages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <div class="card-content">
+                        {{-- <img src="../img/community/health-card.jpeg" alt="Janani Health Card"
+                            class="community-image"> --}}
+                        <h3>Janani Health Card</h3>
+                        <p>Sign up for exclusive benefits and health services for mothers.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">Enroll Today</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <div class="card-content">
+                        {{-- <img src="../img/community/blog.jpeg" alt="Blog" class="community-image"> --}}
+                        <h3>Blog</h3>
+                        <p>Read our insightful articles and personal stories on motherhood.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <div class="card-content">
+                        {{-- <img src="../img/community/anc-calendar.jpeg" alt="ANC Calendar" class="community-image">
+                        --}}
+                        <h3>ANC Calendar</h3>
+                        <p>A special package for a joyful birthing experience.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="col-12 col-lg-3">
         <div class="card">
