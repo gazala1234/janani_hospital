@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AskDoctorController;
+use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\SettingsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -12,4 +13,5 @@ Route::get('/user', function (Request $request) {
 
 Route::apiResource('ask-doctor', AskDoctorController::class);
 Route::apiResource('settings', SettingsController::class);
+Route::apiResource('services', ServicesController::class);
 

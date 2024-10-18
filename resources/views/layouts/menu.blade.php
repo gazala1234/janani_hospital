@@ -99,8 +99,8 @@
                 <span>Events</span>
             </a>
         </li>
-        <li class="sidebar-item">
-            <a href="table.html" class='sidebar-link'>
+        <li class="sidebar-item  ">
+            <a href="{{ url('api/services') }}" class='sidebar-link'>
                 <i class="bi bi-info-circle"></i>
                 <span>Services</span>
             </a>
