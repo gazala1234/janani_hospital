@@ -32,13 +32,13 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="first_name">First Name</label>
-                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder=" " required>
+                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter First Name" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="last_name">Last Name</label>
-                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder=" " required>
+                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter Last Name" required>
                         </div>
                     </div>
                 </div>
@@ -47,19 +47,19 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="city">City</label>
-                            <input type="text" class="form-control" id="city" name="city" placeholder=" " required>
+                            <input type="text" class="form-control" id="city" name="city" placeholder="Enter City" required>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder=" " required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="country">Country</label>
-                            <input type="text" class="form-control" id="country" name="country" placeholder=" " required>
+                            <input type="text" class="form-control" id="country" name="country" placeholder="Enter Country" required>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="mobile">Mobile No</label>
-                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder=" " required>
+                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Enter Mobile No" required>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -98,7 +98,7 @@
         
                 <div class="form-group mb-3">
                     <label for="address">Address</label>
-                    <textarea class="form-control" id="address" name="address" rows="3" placeholder=" " required></textarea>
+                    <textarea class="form-control" id="address" name="address" rows="3" placeholder="Enter Current Address" required></textarea>
                 </div>
         
                 <button type="submit" class="btn btn-primary">Update Personal Information</button>
@@ -133,7 +133,6 @@
   <script>
     $( function() {
       $( "#datepicker" ).datepicker({
-
           dateFormat: "dd-mm-yy" 
       });
     } );
