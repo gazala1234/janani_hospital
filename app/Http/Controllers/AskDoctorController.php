@@ -11,7 +11,7 @@ class AskDoctorController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.chat-with-doctor');
     }
 
     /**
