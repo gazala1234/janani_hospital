@@ -9,14 +9,6 @@ Chat With Doctor
 
 @section('page-content')
 <div class="container">
-    <p id="Heading">
-        <u>
-            <i>
-                Chat With Doctor <br>
-            </i>
-        </u>
-    </p>
-
     <center>
         <p id="chatLog">
 
@@ -24,7 +16,7 @@ Chat With Doctor
     </center>
 
     <center>
-        <input id="userBox" type="text" placeholder="Type a message......" autofocus
+        <input class="form-control" id="userBox" type="text" placeholder="Type a message......" autofocus
             onkeydown="if(event.keyCode==13) {talk()}">
     </center>
 </div>
